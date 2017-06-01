@@ -22,7 +22,6 @@ import org.junit.runners.Suite;
     TestsALL.A_Checkpoint1.class,
     TestsALL.A_Checkpoint2.class,
     TestsALL.A_Checkpoint3.class,
-    TestsALL.A_Final.class,
 })
 
 public class TestsALL
