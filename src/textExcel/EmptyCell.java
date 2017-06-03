@@ -17,5 +17,5 @@ public class EmptyCell implements Cell {
 	public EmptyCell(){
 		//Empty constructor for null value (Only needed to fill array with EmptyCell objects)  
 	}
-//Travis CI Y
+//Test
 }
