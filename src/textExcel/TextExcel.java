@@ -3,9 +3,8 @@ package textExcel;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class TextExcel
-{
-
+public class TextExcel{
+//Client code [Asks and performs inputted commands]
 	public static void main(String[] args)
 	{
 		Spreadsheet x = new Spreadsheet();
@@ -13,7 +12,8 @@ public class TextExcel
 		String input = "";
 		System.out.println("Welcome to TextExcel.");
 		System.out.print("Please enter command (Press 'quit' to end): ");
-		input = in.nextLine();         
+		input = in.nextLine();    
+		//Main command loop
 		while(!input.equals("quit")){ 
 			System.out.println(x.processCommand(input));
 			System.out.print("Please enter another command: ");

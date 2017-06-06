@@ -1,5 +1,5 @@
 package textExcel;
-//j
+
 public class SpreadsheetLocation implements Location
 {
 	String location;

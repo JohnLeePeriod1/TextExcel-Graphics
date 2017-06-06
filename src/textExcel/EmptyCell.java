@@ -1,7 +1,7 @@
 package textExcel;
 
 public class EmptyCell implements Cell {
-
+//EmptyCell [Placeholder in Grid]
 	@Override
 	//Returns blank string 10 characters long [Placeholder]
 	public String abbreviatedCellText() {
@@ -17,5 +17,5 @@ public class EmptyCell implements Cell {
 	public EmptyCell(){
 		//Empty constructor for null value (Only needed to fill array with EmptyCell objects)  
 	}
-//Test
+
 }
